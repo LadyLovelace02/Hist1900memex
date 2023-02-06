@@ -1,0 +1,1 @@
+this is true, online database archival and digital systems of accessing changed the way in which information could be used by people
