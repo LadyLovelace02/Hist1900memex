@@ -1,16 +1,17 @@
 ---
-Title: [use @full-cite-key]
+Title: (Bush, 1945)
 date: 2023-02-04
 type: reference
 project:
 ---
 
 tags::
-projects:[[]]
+projects:[[Hist1900memex/docs/1-inbox/@bushWeMayThink1945]]
 
 ### Reference 
 
-//failed to import full reference
+//failed to export from zotero
+
 
 
 ---

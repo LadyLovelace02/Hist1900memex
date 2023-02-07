@@ -1,11 +1,43 @@
-# Obsidian Notes
+# Melissa Rand's Personal Memex
 
-Publish your public notes with MkDocs
+## aknowledgements
+[[Connections Faith in Numbers episode 4]] was worked on in collaberation with:
+Mace, Camilla, and Erin
 
-## Hello World!
+## map of content
+### sources
+[[Connections Faith in Numbers episode 4]]
+[[As we may think]]
+[[Clay Tablets Shiv Kumar]]
 
-The `index.md` in the `/docs` folder is the homepage you see here.
 
-The folders in `/docs` appear as the main sections on the navigation bar.
+### electricity
+[[History of Electricity]]
+[[Electricity in animals]]
+[[Magnatism and electricity]]
+[[discovering the speed of electricity]]
+[[telegraph]]
+[[Frankenstien]]
+[[testing galvanism]]
+[[ben franklin]]
+[[First Battary]]
+[[Layden Jars]]
+### computing
+[[Ada Lovelace]]
+[[Charles Babage]]
+[[Punch Cards]]
+[[Origins of Computers]]
+[[Analytical Engine]]
+[[tabulator]]
+### information transfer
+[[telegraph]]
+[[tabulator]]
+[[printing press]]
+[[information transfer]]
+[[history of information archival]]
 
-The notes appear as pages within these sections. For example, [[Note 1]] in `Topic 1`
+### information storage
+[[Dewey decimal system]]
+[[Messages and Mediums]]
+[[Fall of the roman empire]]
+
