@@ -1,4 +1,4 @@
-Tags: #lec8 
+Tags: #lec8 #electricity 
 Related connections: [[History of Electricity]] [[discovering the speed of electricity]]
 
 # about

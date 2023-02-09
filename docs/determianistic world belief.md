@@ -1,20 +1,17 @@
 ---
 Title: PUT THE TITLE OF NOTE HERE
-date: 2023-01-31
+date: 2023-02-07
 type: literature
-project:
+project:[[Connections Wheel of Fortune Episode 5]]
 ---
-tags:: #information-transfer 
-projects::[[Connections Faith in Numbers episode 4]]
+tags:: 
+projects::[[Connections Wheel of Fortune Episode 5]]
 
 
-- led to uniform interchangable letters
-- came to be due to the high [[cost of writers]] 
-- this standardized writting
-- caused wide spread information
-- caused achitechs and engineers to make specialized language to communicate with eachother with better detail
-	- caused the creation of jargon
-- 
+-   12:00
+- the middle east brought [[astrology]], [[astronomy]], and [[Star tables]] 
+	- this lead to a more determanistic belief in the world wherein people can be cured of sickness with medicine
+	- this led to the start of treatment in Italy in the 11th century
 
 ---
 ### Citational Information

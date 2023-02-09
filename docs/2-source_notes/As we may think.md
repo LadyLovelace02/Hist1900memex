@@ -5,13 +5,12 @@ type: reference
 project:
 ---
 
-tags::
+tags:: #source 
 projects:[[Hist1900memex/docs/1-inbox/@bushWeMayThink1945]]
 
 ### Reference 
 
-//failed to export from zotero
-
+Bush, V. 1945 As We May Think. _The Atlantic_.
 
 
 ---

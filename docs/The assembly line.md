@@ -1,20 +1,20 @@
 ---
 Title: PUT THE TITLE OF NOTE HERE
-date: 2023-01-31
+date: 2023-02-07
 type: literature
 project:
 ---
-tags:: #information-transfer 
-projects::[[Connections Faith in Numbers episode 4]]
+tags:: 
+projects::[[Connections Wheel of Fortune Episode 5]]
 
 
-- led to uniform interchangable letters
-- came to be due to the high [[cost of writers]] 
-- this standardized writting
-- caused wide spread information
-- caused achitechs and engineers to make specialized language to communicate with eachother with better detail
-	- caused the creation of jargon
-- 
+-   35:00
+- used originally to make blocks for the british navy which gave leverage for sailors
+- this was the novel concept of everyone making something collectively step by step
+- this was imported to america during [[the revolutionary war]] who used it to mass produce muskets
+- without the assembly line our modern lives couldn't exist
+	- nothing we own is unique and is all mass produced
+	- without it the [[Origins of Computers]] would be entirely different because they could never get into the hands of the people on mass
 
 ---
 ### Citational Information

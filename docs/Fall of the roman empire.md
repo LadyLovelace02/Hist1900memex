@@ -4,7 +4,7 @@ date: 2023-01-31
 type: literature
 project:
 ---
-tags:: 
+tags:: #information-transfer #Information-analysis #Information-processing 
 projects::[[Connections Faith in Numbers episode 4]]
 
 

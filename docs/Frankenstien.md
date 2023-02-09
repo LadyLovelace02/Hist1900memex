@@ -1,4 +1,4 @@
-Tags: #lec8 
+Tags: #lec8 #electricity #society
 Related connections: [[testing galvanism]] [[History of Electricity]]
 
 # about

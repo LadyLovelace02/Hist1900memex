@@ -1,20 +1,15 @@
 ---
 Title: PUT THE TITLE OF NOTE HERE
-date: 2023-01-31
+date: 2023-02-07
 type: literature
-project:
+project: [[Connections Wheel of Fortune Episode 5]]
 ---
-tags:: #information-transfer 
-projects::[[Connections Faith in Numbers episode 4]]
+tags:: 
+projects::[[Connections Wheel of Fortune Episode 5]]
 
 
-- led to uniform interchangable letters
-- came to be due to the high [[cost of writers]] 
-- this standardized writting
-- caused wide spread information
-- caused achitechs and engineers to make specialized language to communicate with eachother with better detail
-	- caused the creation of jargon
-- 
+-   14:00
+- [[determianistic world belief]] lead to the advent of the modern scientific method which caused the church to make the [[spanish inquisition]] 
 
 ---
 ### Citational Information

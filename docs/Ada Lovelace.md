@@ -1,5 +1,5 @@
-Tags: #lec7 
-Related connections: [[Charles Babage]] [[Punch Cards]] [[Analytical Engine]]
+Tags: #lec7 #computing 
+Related connections: [[Charles Babbage]] [[Punch Cards]] [[Analytical Engine]]
 
 # about
 - "we may say most aptly that the Analytical Engine weaves algebraic patterns just as Jacquard loom weaves flowers and leaves..." - Ada Lovelace

@@ -1,25 +1,24 @@
 ---
 Title: PUT THE TITLE OF NOTE HERE
-date: 2023-01-31
+date: 2023-02-07
 type: literature
 project:
 ---
-tags:: #information-transfer 
-projects::[[Connections Faith in Numbers episode 4]]
+tags:: 
+projects::[[Connections Wheel of Fortune Episode 5]]
 
 
-- led to uniform interchangable letters
-- came to be due to the high [[cost of writers]] 
-- this standardized writting
-- caused wide spread information
-- caused achitechs and engineers to make specialized language to communicate with eachother with better detail
-	- caused the creation of jargon
-- 
+-   1:00
+- computers have a perfect memory of data about our lives
+	- this data is power 
+		- but who controls this power?
+	- having this data gives the ability to predict the future
+		- the last time this happened was with the advent of [[astrology]] and [[astronomy]]
 
 ---
 ### Citational Information
 
-Link to the originating literature note.
+[[Connections Wheel of Fortune Episode 5]]
 
 ---
 

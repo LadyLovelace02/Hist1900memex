@@ -1,4 +1,4 @@
-Tags: #lec7 
+Tags: #lec7 #computing #loom
 Related connections: [[Jacquard loom]]
 
 # about
