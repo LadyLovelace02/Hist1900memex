@@ -7,13 +7,14 @@ Mace, Camilla, and Erin
 [[Connections Wheel of Fortune Episode 5]] was worked on in collaberation with: Erin
 
 ## map of content
-![[Pasted image 20230209100511.png]]
+
 ### sources
 - [[Connections Faith in Numbers episode 4]]
 - [[As we may think]]
 - [[Clay Tablets Shiv Kumar]]
 - [[Connections Wheel of Fortune Episode 5]]
 - [[From Analytical Engine To Electronic Digital Computer]] 
+- [[The Victorian Internet Chapter 5]]
 
 
 ### electricity
