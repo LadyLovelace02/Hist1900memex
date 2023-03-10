@@ -2,6 +2,10 @@
 
 ## Feedback and Response
 [[assignment 1 feedback response]] 
+- Thoughts about memex 2 work
+	- I am happy with the sources I added to my memex for this assignment I think they are very interesting and I like how they play on their own parts of the history of the internet and yet can be connected
+	- Additionally I only have one external reference at the moment, for the next assignment I hope to add more its just they weren't my focus for this memex
+	- I have tried to iterate my work off of your feedback, see note above
 
 ## acknowledgements
 [[Connections Faith in Numbers episode 4]] was worked on in collaberation with:
