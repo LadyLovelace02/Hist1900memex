@@ -1,4 +1,4 @@
-Tags: #lec5 
+Tags: #lec5 #cryptography 
 Related connections: [[Messages and Mediums]] [[information theory]] [[information transfer]] 
 
 # about

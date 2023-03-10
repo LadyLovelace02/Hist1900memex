@@ -19,4 +19,4 @@ projects::[[From Analytical Engine To Electronic Digital Computer]]
 
 ### Related Links
 
-[[sexism in computing]] 
+[[sexism in Technology]] 
