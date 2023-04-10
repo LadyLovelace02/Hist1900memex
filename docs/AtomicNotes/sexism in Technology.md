@@ -21,4 +21,5 @@ tags::  #sexism
 	- and more
 - the management roles where coded male and there was a social pressure to remove the female workers as they held power in the form of knowledge
 	- the women trained their male replacements
-- 
+		- this was a direct instruction from the higher ups
+	- Women where socially pushed out of the field in order to make way for "upper clas white men"
