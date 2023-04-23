@@ -3,7 +3,7 @@ Related connections: [[Jacquard]] [[Automata]] [[Silk industry]]
 
 # about
 - was controlled by a foot petal
-- coult be used by one person
+- could be used by one person
 - used punch cards to make more complex designs
 	- you had control over every thread
 	- it also made it repeatable

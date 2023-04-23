@@ -24,7 +24,7 @@ An exploration of the journey of change that led from the fall of rome and the i
 ### Links
 [[Cam]]
 [[cost of writers]]
-[[facination with the anchient greeks and romans]]
+[[facination with the ancient greeks and romans]]
 [[Fall of the roman empire]]
 [[Immigration]]
 [[investments]]

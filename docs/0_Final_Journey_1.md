@@ -3,9 +3,47 @@ Tags: #FinalJourney
 ---
 # **what is the most powerful thing you've learned in this course**
 ## The path through my memex
-
+- [[money causes change]]
+- [[Connections Ep 10 Yesterday, Tomorrow, and You]]
+- [[Inaccessability of Science]]
+- [[printing press]]
+- [[facination with the ancient greeks and romans]]
+- [[Automata]]
+- [[Jacquard loom]]
+- [[Punch Cards]]
+- [[Analytical Engine]] 
+- [[Origins of Computers]]
+- [[internetification of the supply chain]]
+- [[dot com Bubble]]
+- [[Gentrification of the Internet]]
 ## What it means
+This path through my memex shows how the effects of capitalism lead to the progress that created computers and the internet and ulimately how its infulence runined it. We start the path with the theoretical note [[money causes change]] written for [[Connections Ep 10 Yesterday, Tomorrow, and You]] which talked about the causes of change and how knowing them can help your understanding of the world and potential futures. One of the key take aways of this episode is how more ability to communicate leads to the [[Inaccessability of Science]] which feels counterintuitive but it occurs because even though we all have better access to scientific resources (even if it is gatekeeped a lot) than ever before we still know less. James Burke from Connections asserts this is because more communication between scientists led to more and more jargon as they needed nuanced words with precise definitions, and as the amount of jargon increased more and more it made these fields less and less easy to break into. 
 
-## how can this knowladge be used (ie why is it powerful)
+The first major change in the speed of communication was the [[printing press]] which is where the boundry between the scientist and layperson began to grow according to the Connections series. The printing press was an invention very much motivated by money, previously books had to be painstakingly copied by hand by monks which was labour intensive while as the printing press automated the workflow and made it significantly faster. This lead to the mass reprintings of Greek and Roman works which lead to the cultural [[facination with the ancient greeks and romans]]. 
+
+From that facination with the ancient world also came kings and queens wanting a novel way to flaunt their wealth and they found it in [[Automata]] which used hydrolic systems similar to those rediscovered and popularized by the printing press from the ancient Roman aquafers. 
+
+Then that idea of automatic work was transfered to the [[loom]] via the [[Jacquard loom]] which used [[Punch Cards]] originally used to play [[pipe organs]] in [[Automata]]. The [[Jacquard loom]] meant the loom only had to be operated by one person anymore which made the time and labour costs cheaper. And because the paterns where "saved" on the [[Punch Cards]] it took much less mental capacity to do than previous [[loom]]s did. This was a massive financial advantage for this form of [[loom]]. 
+
+Then of course [[Charles Babbage]] works on his conceptiual [[Analytical Engine]] using the idea of [[Punch Cards]] to encode data. And from this the [[Origins of Computers]] is born. 
+
+From this the internet is eventually born and begins to be used by companies once they realize it can be advantagious. the [[internetification of the supply chain]] is a logical next step for companies which rely on international intensly manufactured, mass produced things. Without it the idea of everyone in the western world owning an iphone would be an almost impossible logistical task. This ability to remotely access and change logistics instantaniously globally is a massive money save for growing monopolies around the world. This surge of corperate interest in the internet lead to the [[dot com Bubble]] wherein too many new tech startups started and failed, there where simply too many "pump and dump" schemes using VC money. Then most .com URL's got purchased and its become very expensive to own a .com URL unless its very obscure. 
+
+Then with this new surge of corperate places on the internet the [[Gentrification of the Internet]] began. As other online companies failed because they tried to create their own new infrastructure companies like [[Amazon]] which were well funded weathered the storm by selling at a loss using pre-existing infrastructure and growing their marketshare because no one could compete with their prices and promises. Then once people and brands where locked in with a website such as [[Amazon]] then they slowly begin the "enshitification" or gentrification of their site. This is done by knowing no one has the ability to stop using your site because of your new found monopoly, then by using and selling people's data and selling advertising spots to companies. This is done until all the benefit of the product is gone and everyone is stuck using a bad platform because all others have been destroyed or assimilated. [[Google]] followed a similar path.
+
+As can be seen capitalism has been a big motivator in the history of information technology, almost every step along this path was motivated by a financial gain. It can also be seen how this mindless following of profit can have negatives for the people surrounding it. For example as described in [[Freeing Dark Data]] the [[Inaccessability of Science]] is a major problem in the world today that can find its roots as far back as the [[printing press]]. Additionally the [[Gentrification of the Internet]] is another example of an amazing technology the internet being ruined by corperate greed, where most people are locked into ecosystems visiting only ~10 websites and even if others are used they are often hosted by those major monopolies or are ridden with cookie spying ads from those corperations. The internet is nolonger a free and open platform but rather a closed corperate space which ruins the initial intentions of it and makes it a significantly worse place to be on. 
+
+## how can this knowledge be used (ie why is it powerful)
+This is the most powerful thing we've learned in this course because capitalism is all around us and effects change in everything we see and do. Often people mistake convienince for quality, for example it is very convienient to use google as a search engine to crawl the internet but it's bias has been demonstrated and with google selling more and more ad spots its reliability as an agnostic search engine is being put more and more into question. Google is undeniably more convienent than repositories of web-links to scour though manually. But this convience has come at the cost of agnostic results, more and more often top hits are those who paid the most not those that are most relievent to your query.
+
+In order to effect change for the better requires this sort of informed knowledge of the internet, how it was, is, and could be. This information is powerful because it allows us to effect change on the internet if not on how it is on a global scale maybe just perhaps in how we interface with it. For example having a focus on self-hosted content and more personal communication, and an emphasis on real world experiences over the internet we have know where click-through rate is king and all websites care about is how long you're on them so they can generate ad revinue. 
 
 ## What can we do about it
+Although effecting change on a global level feels impossible it can hypothetically be done and the only way to do so is to understand that corperations aren't your friend and don't have your best interests at heart, and in order to make a better internet it needs to be run by passionate people with a vested interest in maintaining a good and healthy platform, not one driven by profit. 
+
+Additionally as mentioned earlier even if larger change can't be enacted we can still use this information to push individual change for the betterment of ourselves such as returing to using the internet as a tool rather than an everything machine that you do everything on. I believe this information can help us have a healthier relationship to our technology and the internet as a whole. The modern interenet as shaped by corperations is designed to be addictive and pulling away from it can have a real sense of withdrawl. But as was discussed in the later end of the couse it may be the only real way to improve our lives within the broken framework of the internet. 
+
+As Professor Graham put it when asked about reversing the [[Gentrification of the Internet]] his response was to "burn it to the ground" which tragically may not be far off the only solution on a internet wide scale, and because of that we need to individually learn to regulate ourselves because the mass change isn't come, especially not soon. 
+
+## In conclusion
+The internet is an amazing technology with massive potential to do good for humanity but as usual humans have messed it up and in order to use it to its fullest potential we need more internets like the [[Community Run Internet]] created by Pam Hardt and her team in the 70s which was designed to increase access to information and improve our real world lives and less that are designed to addict and pull you away from the real world.

@@ -1,6 +1,5 @@
 # Melissa Rand's Personal Memex
 ## Final Journey
-### Ignore this on the 3rd memex submission it is in progress
 - [[0_Final_Journey_1]]
 - [[0_Final Journey_2]]
 ```dataview
