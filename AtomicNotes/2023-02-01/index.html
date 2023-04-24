@@ -1,0 +1,1216 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="../2023-01-16/" rel="prev"/>
+<link href="../Ada%20Lovelace/" rel="next"/>
+<link href="../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-9.1.8" name="generator"/>
+<title>2023 02 01 - obsidian-mkdocs template</title>
+<link href="../../assets/stylesheets/main.ded33207.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="indigo" data-md-color-primary="pink" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="obsidian-mkdocs template" class="md-header__button md-logo" data-md-component="logo" href="../.." title="obsidian-mkdocs template">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            obsidian-mkdocs template
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              2023 02 01
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="pink" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="blue" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="pink" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"></path></svg>
+</label>
+</form>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="obsidian-mkdocs template" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="obsidian-mkdocs template">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+    obsidian-mkdocs template
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+        Melissa Rand's Personal Memex
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../0_Final%20Journey_2/">
+        0 Final Journey 2
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../0_Final_Journey_1/">
+        0 Final Journey 1
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../2008%20housing%20crisis/">
+        2008 housing crisis
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../ARPANET/">
+        ARPANET
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Altair%208800/">
+        Altair 8800
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Amazon/">
+        Amazon
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Apple%20I/">
+        Apple I
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../BBS/">
+        BBS
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Communication%20Distribution/">
+        Communication Distribution
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Community%20Run%20Internet/">
+        Community Run Internet
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Dame%20Stephanie/">
+        Dame Stephanie
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Facebook/">
+        Facebook
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Gentrification%20of%20the%20Internet/">
+        Gentrification of the Internet
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Google/">
+        Google
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../History%20of%20Malware/">
+        History of Malware
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Hypertext/">
+        Hypertext
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../IMPS%20%28Interface%20Message%20Processors%29/">
+        IMPS (Interface Message Processors)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Modem/">
+        Modem
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Mother%20of%20all%20Demos/">
+        Mother of all Demos
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../News%20on%20the%20Web/">
+        News on the Web
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Personal%20Computers/">
+        Personal Computers
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Phone%20Phreaks/">
+        Phone Phreaks
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Section%20230/">
+        About
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../South%20Seas%20Bubble/">
+        South Seas Bubble
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Terminal%20systems/">
+        Terminal systems
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Tim%20Berners-Lee%27s%20Hypertext/">
+        Tim Berners Lee's Hypertext
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../dot%20com%20Bubble/">
+        dot com Bubble
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../internetification%20of%20the%20supply%20chain/">
+        Internetification of the supply chain
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../packet%20switching/">
+        Packet switching
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_31" type="checkbox"/>
+<label class="md-nav__link" for="__nav_31" id="__nav_31_label" tabindex="0">
+          1 inbox
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_31_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_31">
+<span class="md-nav__icon md-icon"></span>
+          1 inbox
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../1-inbox/%40BellAlexanderGraham/">
+        @BellAlexanderGraham
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../1-inbox/%40allebachBriefHistoryInternet2020/">
+        @allebachBriefHistoryInternet2020
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../1-inbox/%40braunHowNotNetwork2020/">
+        @braunHowNotNetwork2020
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../1-inbox/%40bushWeMayThink1945/">
+        @bushWeMayThink1945
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../1-inbox/%40goetzFreeingDarkData/">
+        @goetzFreeingDarkData
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../1-inbox/%40lightWhenComputersWere1999/">
+        @lightWhenComputersWere1999
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../1-inbox/%40ouelletteLostFoundCodebreakers2023/">
+        @ouelletteLostFoundCodebreakers2023
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../1-inbox/%40randellAnalyticalEngineElectronic1982/">
+        @randellAnalyticalEngineElectronic1982
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../1-inbox/%40shivkumarClayTabletsWeb2013/">
+        @shivkumarClayTabletsWeb2013
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../1-inbox/%40tickleDameStephanieShirley2017/">
+        @tickleDameStephanieShirley2017
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../1-inbox/%40universityInterviewPamHardt/">
+        @universityInterviewPamHardt
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_32" type="checkbox"/>
+<label class="md-nav__link" for="__nav_32" id="__nav_32_label" tabindex="0">
+          2 source notes
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_32_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_32">
+<span class="md-nav__icon md-icon"></span>
+          2 source notes
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../2-source_notes/158%2C962%2C555%2C217%2C826%2C360%2C000%20%28Enigma%20Machine%29%20%26%20Flaw%20in%20the%20Enigma%20Code/">
+        158,962,555,217,826,360,000 (Enigma Machine) &amp; Flaw in the Enigma Code
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../2-source_notes/As%20we%20may%20think/">
+        As we may think
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../2-source_notes/Brief%20History%20of%20the%20Internet/">
+        Brief History of the Internet
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../2-source_notes/Clay%20Tablets%20Shiv%20Kumar/">
+        Clay Tablets Shiv Kumar
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../2-source_notes/Connections%20Ep%2010%20Yesterday%2C%20Tomorrow%2C%20and%20You/">
+        Connections Ep 10 Yesterday, Tomorrow, and You
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../2-source_notes/Connections%20Faith%20in%20Numbers%20episode%204/">
+        Connections Faith in Numbers episode 4
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../2-source_notes/Connections%20Wheel%20of%20Fortune%20Episode%205/">
+        Connections Wheel of Fortune Episode 5
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../2-source_notes/Freeing%20Dark%20Data/">
+        Freeing Dark Data
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../2-source_notes/From%20Analytical%20Engine%20To%20Electronic%20Digital%20Computer/">
+        From Analytical Engine To Electronic Digital Computer
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../2-source_notes/How%20not%20to%20network%20a%20nation/">
+        How not to network a nation
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../2-source_notes/Interview%20Pam%20Hardt/">
+        Interview Pam Hardt
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../2-source_notes/Lost%20and%20Found/">
+        Lost and Found
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../2-source_notes/The%20Victorian%20Internet%20Chapter%205/">
+        The Victorian Internet Chapter 5
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../2-source_notes/When%20Computers%20Where%20Women/">
+        When Computers Where Women
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_33" type="checkbox"/>
+<label class="md-nav__link" for="__nav_33" id="__nav_33_label" tabindex="0">
+          AtomicNotes
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_33_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_33">
+<span class="md-nav__icon md-icon"></span>
+          AtomicNotes
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2023-01-16/">
+        2023 01 16
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./">
+        2023 02 01
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Ada%20Lovelace/">
+        Ada Lovelace
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Alan%20Turing/">
+        Alan Turing
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Alexander%20Graham%20Bell%27s%20ableism/">
+        Alexander Graham Bell's ableism
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Alexander%20Graham%20Bell/">
+        Alexander Graham Bell
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Alexander%20Graham%20Bell%3B%20An%20audist%20agaist%20deaf%20people/">
+        Alexander Graham Bell; An audist agaist deaf people
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Analytical%20Engine/">
+        Analytical Engine
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Assemblage%20Theory/">
+        Assemblage Theory
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Automata/">
+        Automata
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Bombe%20to%20Colossus/">
+        Bombe to Colossus
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Cam/">
+        Cam
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Charles%20Babbage/">
+        Charles Babbage
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Charles%20Page/">
+        Charles Page
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Claud%20Shanon/">
+        Claud Shanon
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Cold%20War%20Computing/">
+        Cold War Computing
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Colonialsm/">
+        Colonialsm
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Cryptology/">
+        Cryptology
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Dark%20Data/">
+        Dark Data
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Dewey%20decimal%20system/">
+        Dewey decimal system
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Dewey%27s%20Bigotry/">
+        Dewey's Bigotry
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Electricity%20in%20animals/">
+        Electricity in animals
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Elisha%20Gray/">
+        Elisha Gray
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Enigma/">
+        Enigma
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Fall%20of%20the%20roman%20empire/">
+        Fall of the roman empire
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../First%20Battary/">
+        First Battary
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Frankenstien/">
+        Frankenstien
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Galileo/">
+        Galileo
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Grace%20Hopper/">
+        Grace Hopper
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Gutta-Percha/">
+        Gutta Percha
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Herman%20Hollerith/">
+        Herman Hollerith
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../History%20of%20Electricity/">
+        History of Electricity
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../How%20to%20contact%20prof/">
+        Dr Graham
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Hut%208%20%26%20Bletchly%20Park/">
+        Hut 8 &amp; Bletchly Park
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Immigration/">
+        Immigration
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Inaccessability%20of%20Science/">
+        Inaccessability of Science
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Jacquard%20loom/">
+        Jacquard loom
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Jacquard/">
+        Jacquard
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Johann%20Philipp%20Reis/">
+        Johann Philipp Reis
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Layden%20Jars/">
+        Layden Jars
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Lec%201%20Notes/">
+        Lec 1 Notes
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Lec%202/">
+        Lec 2
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Lec%203/">
+        Lec 3
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Lec%204/">
+        Lec 4
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Letterlocking/">
+        Letterlocking
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Magnatism%20and%20electricity/">
+        Magnatism and electricity
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Mauchly%20%26%20ENIAC/">
+        Mauchly &amp; ENIAC
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Messages%20and%20Mediums/">
+        Messages and Mediums
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Monistaries/">
+        Monistaries
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../National%20adoption%20of%20the%20telegraph/">
+        National adoption of the telegraph
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Networks/">
+        Networks
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Origins%20of%20Computers/">
+        Origins of Computers
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Persepectivism/">
+        Persepectivism
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Punch%20Cards/">
+        Punch Cards
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Reflecting%20on%20histories%20structure/">
+        Reflecting on histories structure
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Silk%20industry/">
+        Silk industry
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Social%20Necessity%20for%20Computers/">
+        Social Necessity for Computers
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Star%20tables/">
+        Star tables
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Strowger%20Automatic%20Exchange/">
+        Strowger Automatic Exchange
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Telephone/">
+        Telephone
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../The%20Black%20Death/">
+        The Black Death
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../The%20Internet%20as%20a%20Place/">
+        The Internet as a Place
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../The%20Space%20Economy/">
+        The Space Economy
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../The%20assembly%20line/">
+        The assembly line
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../The%20first%20internet/">
+        The first internet
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../The%20idiot%20inventor/">
+        The idiot inventor
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../The%20scientific%20method/">
+        The scientific method
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Theodore%20Vail/">
+        Theodore Vail
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Theory%20is%20cool%20because%20if%20I%20don%27t%20write%20this%20down%20Dr%20Graham%20will%20get%20mad/">
+        Theory is cool because if I don't write this down Dr Graham will get mad
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Thomas%20Edison/">
+        Thomas Edison
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Trans-Atlantic%20Telegraph/">
+        Trans Atlantic Telegraph
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Tutorial-level/">
+        Tutorial level
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Typex/">
+        Typex
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Vannevar%20Bush/">
+        Vannevar Bush
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Water%20powered%20alarm%20clock/">
+        Water powered alarm clock
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Women%20created%20modern%20programming/">
+        Women created modern programming
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Zotero%20Annotation%20Colour%20Key/">
+        Zotero Annotation Colour Key
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../accidents%20cause%20change/">
+        Accidents cause change
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../assignment%20feedback%20response/">
+        Assignment feedback response
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../astrology/">
+        Astrology
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../astronomy/">
+        Astronomy
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../balistics/">
+        Balistics
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../ben%20franklin/">
+        Ben franklin
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../bigoted%20people%20in%20the%20history%20of%20the%20internet/">
+        Bigoted people in the history of the internet
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../boolean%20logic/">
+        Boolean logic
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../changing%20fields/">
+        Changing fields
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../circuits/">
+        Circuits
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../communications%20incite%20change/">
+        Communications incite change
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../complex%20vs%20complicated/">
+        Complex vs complicated
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../cost%20of%20phone%20subscription%201890/">
+        Cost of phone subscription 1890
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../cost%20of%20writers/">
+        Cost of writers
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../determianistic%20world%20belief/">
+        Determianistic world belief
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../differences%20in%20literacy%20societally/">
+        Differences in literacy societally
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../discovering%20the%20speed%20of%20electricity/">
+        Discovering the speed of electricity
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../envirnment%20causes%20change/">
+        Envirnment causes change
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../facination%20with%20the%20ancient%20greeks%20and%20romans/">
+        Facination with the ancient greeks and romans
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../french%20revolution/">
+        French revolution
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../history%20of%20information%20archival/">
+        History of information archival
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../history%20of%20writing/">
+        History of writing
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../hypothesis%20config/">
+        Hypothesis config
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../information%20theory/">
+        Information theory
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../information%20transfer/">
+        Information transfer
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../interdependancy/">
+        Interdependancy
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../investments/">
+        Investments
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../lack%20of%20Ada%20Lovelace/">
+        lack of Ada Lovelace
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../loads%20of%20linens/">
+        Loads of linens
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../loom/">
+        Loom
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../markets%20in%20Champain/">
+        markets in Champain
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../minorty%20group%20repersentation%20suppression/">
+        Minorty group repersentation suppression
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../money%20causes%20change/">
+        Money causes change
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../morse%20code/">
+        Morse code
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../national%20census/">
+        National census
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../nuclear%20energy/">
+        Nuclear energy
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../nuremberg%20egg%20pocket%20watch/">
+        Nuremberg egg pocket watch
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../online%20library%20systems%20improved%20things/">
+        Online library systems improved things
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../people%20don%27t%20understand%20technology/">
+        People don't understand technology
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../pipe%20organs/">
+        Pipe organs
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../plows%20to%20empires/">
+        Plows to empires
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../post-pandemic/">
+        Post pandemic
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../predicting%20literatcure/">
+        Predicting literatcure
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../printing%20press/">
+        Printing press
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../religion%20causes%20change/">
+        Religion causes change
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../repairability/">
+        Repairability
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../sexism%20in%20Technology/">
+        sexism in Technology
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../spanish%20inquisition/">
+        Spanish inquisition
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../steam%20engine/">
+        Steam engine
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../tabulator/">
+        Tabulator
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../telegraph/">
+        Telegraph
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../testing%20galvanism/">
+        Testing galvanism
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../the%20church/">
+        The church
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../the%20pendelum/">
+        The pendelum
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../the%20revolutionary%20war/">
+        The revolutionary war
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../turing%20machine/">
+        Turing machine
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../verge%20and%20foliate%20clock/">
+        Verge and foliate clock
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../warfare%20causes%20change/">
+        Warfare causes change
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../water%20power/">
+        Water power
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../why%20computers%20are%20significant/">
+        Why computers are significant
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_34" type="checkbox"/>
+<label class="md-nav__link" for="__nav_34" id="__nav_34_label" tabindex="0">
+          Features
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_34_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_34">
+<span class="md-nav__icon md-icon"></span>
+          Features
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Features/LaTeX%20Math%20Support/">
+        LaTeX Math Support
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Features/Mermaid%20Diagrams/">
+        Mermaid diagrams
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Features/Text%20Formatting/">
+        Text Formatting
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_35" type="checkbox"/>
+<label class="md-nav__link" for="__nav_35" id="__nav_35_label" tabindex="0">
+          Topic 1
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_35_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_35">
+<span class="md-nav__icon md-icon"></span>
+          Topic 1
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Topic%201/Note%201/">
+        Note 1
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Topic%201/Note%202/">
+        Note 2
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1>2023 02 01</h1>
+<p>this is very true, the ease of accessing information in the modern age is amazing and makes data collation much easier</p>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.51198bba.min.js"></script>
+<script src="../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</body>
+</html>
